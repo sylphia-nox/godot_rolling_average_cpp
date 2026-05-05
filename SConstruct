@@ -5,10 +5,12 @@ import sys
 from methods import print_error
 
 
-libname = "EXTENSION-NAME"
+libname = "RollingAverage"
 projectdir = "project"
 
 localEnv = Environment(tools=["default"], PLATFORM="")
+print("C Compiler found at:", localEnv.WhereIs('gcc')) # or 'cl' for MSVC
+print("C++ Compiler found at:", localEnv.WhereIs('g++'))
 
 # Build profiles can be used to decrease compile times.
 # You can either specify "disabled_classes", OR
@@ -27,6 +29,8 @@ opts.Update(localEnv)
 Help(opts.GenerateHelpText(localEnv))
 
 env = localEnv.Clone()
+
+CacheDir('C:/Users/Guardian/.cache/scons')
 
 if not (os.path.isdir("godot-cpp") and os.listdir("godot-cpp")):
     print_error("""godot-cpp is not available within this folder, as Git submodules haven't been initialized.

@@ -1,3 +1,7 @@
+This repository is based on the godot-cpp template repo.  See below for the original readme from that page.
+
+This repo stores the needed dev setup for working on godot cpp extensions.
+
 # godot-cpp template
 This repository serves as a quickstart template for GDExtension development with Godot 4.0+.
 

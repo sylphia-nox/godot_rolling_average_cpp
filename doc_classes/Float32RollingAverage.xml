@@ -15,21 +15,21 @@
 		</method>
 		<method name="populate">
 			<return type="void" />
-			<param index="0" name="_unnamed_arg0" type="PackedFloat32Array" />
+			<param index="0" name="packed_array" type="PackedFloat32Array" />
 			<description>
 				Populates the rolling average with an array of float values.  Make sure the packed array size matches the window size.  This will recalculate the average using the provided values.
 			</description>
 		</method>
 		<method name="set_window_size">
 			<return type="void" />
-			<param index="0" name="_unnamed_arg0" type="int" />
+			<param index="0" name="window_size" type="int" />
 			<description>
 				Sets the window size for the rolling average.  This determines how many values are used to calculate the average.  Required before adding any values.
 			</description>
 		</method>
 		<method name="update">
 			<return type="float" />
-			<param index="0" name="_unnamed_arg0" type="float" />
+			<param index="0" name="new_value" type="float" />
 			<description>
 				Updates the rolling average with a new float value.  The average will be recalculated based on the new value and the existing values in the window.
 			</description>

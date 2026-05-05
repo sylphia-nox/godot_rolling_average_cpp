@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Vector3RollingAverage" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		A rolling/moving average for Vector3 values.
+	</brief_description>
+	<description>
+		This class maintains a rolling average of Vector3 values, updating the average as new values are added.  It is useful for smoothing out noisy data or creating a moving average of a sequence of values.  It requires that you specify the window size when creating an instance of the class and will start with a default average of (0, 0, 0).
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="get_value" qualifiers="const">
+			<return type="Vector3" />
+			<description>
+				Returns the current rolling average.
+			</description>
+		</method>
+		<method name="populate">
+			<return type="void" />
+			<param index="0" name="_unnamed_arg0" type="PackedVector3Array" />
+			<description>
+				Populates the rolling average with an array of Vector3 values.  Make sure the packed array size matches the window size.  This will recalculate the average using the provided values.
+			</description>
+		</method>
+		<method name="set_window_size">
+			<return type="void" />
+			<param index="0" name="_unnamed_arg0" type="int" />
+			<description>
+				Sets the window size for the rolling average.  This determines how many values are used to calculate the average.  Required before adding any values.
+			</description>
+		</method>
+		<method name="update">
+			<return type="Vector3" />
+			<param index="0" name="_unnamed_arg0" type="Vector3" />
+			<description>
+				Updates the rolling average with a new Vector3 value.  The average will be recalculated based on the new value and the existing values in the window.
+			</description>
+		</method>
+	</methods>
+</class>

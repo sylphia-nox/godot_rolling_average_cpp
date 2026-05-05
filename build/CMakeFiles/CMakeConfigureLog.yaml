@@ -7373,3 +7373,1389 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
+      - "godot-cpp/cmake/GodotCPPModule.cmake:21 (find_package)"
+      - "godot-cpp/cmake/godotcpp.cmake:20 (include)"
+      - "godot-cpp/CMakeLists.txt:43 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      lld-link: error: could not open 'libcmt.lib': no such file or directory
+      lld-link: error: could not open 'oldnames.lib': no such file or directory
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake:210 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "program"
+    variable: "__RC_COMPILER_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Guardian/.local/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/"
+      - "C:/Users/Guardian/go/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/Godot/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/mingw64/sbin/"
+      - "C:/Program Files/mingw64/"
+      - "C:/Program Files (x86)/godot-cpp/bin/"
+      - "C:/Program Files (x86)/godot-cpp/sbin/"
+      - "C:/Program Files (x86)/godot-cpp/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Users/Guardian/.local/bin/rc.com"
+      - "C:/Users/Guardian/.local/bin/rc.exe"
+      - "C:/Users/Guardian/.local/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc.com"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc.exe"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc"
+      - "C:/Users/Guardian/go/bin/rc.com"
+      - "C:/Users/Guardian/go/bin/rc.exe"
+      - "C:/Users/Guardian/go/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc"
+      - "C:/Program Files/mingw64/bin/rc.com"
+      - "C:/Program Files/mingw64/bin/rc.exe"
+      - "C:/Program Files/mingw64/bin/rc"
+      - "C:/Program Files/Godot/rc.com"
+      - "C:/Program Files/Godot/rc.exe"
+      - "C:/Program Files/Godot/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/mingw64/bin/rc.com"
+      - "C:/Program Files/mingw64/bin/rc.exe"
+      - "C:/Program Files/mingw64/bin/rc"
+      - "C:/Program Files/mingw64/sbin/rc.com"
+      - "C:/Program Files/mingw64/sbin/rc.exe"
+      - "C:/Program Files/mingw64/sbin/rc"
+      - "C:/Program Files/mingw64/rc.com"
+      - "C:/Program Files/mingw64/rc.exe"
+      - "C:/Program Files/mingw64/rc"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc"
+      - "C:/Program Files (x86)/godot-cpp/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/mingw64"
+        - "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake:216 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "program"
+    variable: "__RC_COMPILER_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-rc"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Guardian/.local/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/"
+      - "C:/Users/Guardian/go/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/Godot/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/mingw64/sbin/"
+      - "C:/Program Files/mingw64/"
+      - "C:/Program Files (x86)/godot-cpp/bin/"
+      - "C:/Program Files (x86)/godot-cpp/sbin/"
+      - "C:/Program Files (x86)/godot-cpp/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-rc.com"
+    found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/mingw64"
+        - "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-u4834z"
+      binary: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-u4834z"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<IF:$<BOOL:OFF>,DebugDLL,$<$<NOT:$<BOOL:ON>>:DLL>>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-u4834z'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_1d702
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -MD -MT CMakeFiles/cmTC_1d702.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_1d702.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_1d702.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1d702.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1d702.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1d702.lib -Xlinker /pdb:cmTC_1d702.pdb -Xlinker /version:0.0     && cd ."
+        FAILED: [code=1] cmTC_1d702.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1d702.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1d702.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1d702.lib -Xlinker /pdb:cmTC_1d702.pdb -Xlinker /version:0.0     && cd ."
+        clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_1d702.exe "-libpath:lib\\\\amd64" "-libpath:atlmfc\\\\lib\\\\amd64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_1d702.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_1d702.lib /pdb:cmTC_1d702.pdb /version:0.0
+        lld-link: error: could not open 'libcmt.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Program Files/LLVM/bin/clang++.exe"
+    directories:
+      source: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-mi66ln"
+      binary: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-mi66ln"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<IF:$<BOOL:OFF>,DebugDLL,$<$<NOT:$<BOOL:ON>>:DLL>>"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-mi66ln'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_98ace
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -MD -MT CMakeFiles/cmTC_98ace.dir/testCXXCompiler.cxx.obj -MF CMakeFiles\\cmTC_98ace.dir\\testCXXCompiler.cxx.obj.d -o CMakeFiles/cmTC_98ace.dir/testCXXCompiler.cxx.obj -c C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-mi66ln/testCXXCompiler.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_98ace.dir/testCXXCompiler.cxx.obj -o cmTC_98ace.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_98ace.lib -Xlinker /pdb:cmTC_98ace.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_98ace.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_98ace.dir/testCXXCompiler.cxx.obj -o cmTC_98ace.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_98ace.lib -Xlinker /pdb:cmTC_98ace.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'kernel32.lib': no such file or directory
+        lld-link: error: could not open 'user32.lib': no such file or directory
+        lld-link: error: could not open 'gdi32.lib': no such file or directory
+        lld-link: error: could not open 'winspool.lib': no such file or directory
+        lld-link: error: could not open 'shell32.lib': no such file or directory
+        lld-link: error: could not open 'ole32.lib': no such file or directory
+        lld-link: error: could not open 'oleaut32.lib': no such file or directory
+        lld-link: error: could not open 'uuid.lib': no such file or directory
+        lld-link: error: could not open 'comdlg32.lib': no such file or directory
+        lld-link: error: could not open 'advapi32.lib': no such file or directory
+        lld-link: error: could not open 'oldnames.lib': no such file or directory
+        lld-link: error: could not open 'libcmt.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
+      - "godot-cpp/cmake/GodotCPPModule.cmake:21 (find_package)"
+      - "godot-cpp/cmake/godotcpp.cmake:20 (include)"
+      - "godot-cpp/CMakeLists.txt:43 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.15_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.14_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.13_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.12_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.11_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.10_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.9_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.8_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.7_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.6_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.5_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3.4_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python3_d"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      lld-link: error: could not open 'libcmt.lib': no such file or directory
+      lld-link: error: could not open 'oldnames.lib': no such file or directory
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake:210 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "program"
+    variable: "__RC_COMPILER_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Guardian/.local/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/"
+      - "C:/Users/Guardian/go/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/Godot/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/mingw64/sbin/"
+      - "C:/Program Files/mingw64/"
+      - "C:/Program Files (x86)/godot-cpp/bin/"
+      - "C:/Program Files (x86)/godot-cpp/sbin/"
+      - "C:/Program Files (x86)/godot-cpp/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Users/Guardian/.local/bin/rc.com"
+      - "C:/Users/Guardian/.local/bin/rc.exe"
+      - "C:/Users/Guardian/.local/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc.com"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc.exe"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/rc"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/rc"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/rc"
+      - "C:/Users/Guardian/go/bin/rc.com"
+      - "C:/Users/Guardian/go/bin/rc.exe"
+      - "C:/Users/Guardian/go/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/rc"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.com"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.exe"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc"
+      - "C:/Program Files/mingw64/bin/rc.com"
+      - "C:/Program Files/mingw64/bin/rc.exe"
+      - "C:/Program Files/mingw64/bin/rc"
+      - "C:/Program Files/Godot/rc.com"
+      - "C:/Program Files/Godot/rc.exe"
+      - "C:/Program Files/Godot/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/mingw64/bin/rc.com"
+      - "C:/Program Files/mingw64/bin/rc.exe"
+      - "C:/Program Files/mingw64/bin/rc"
+      - "C:/Program Files/mingw64/sbin/rc.com"
+      - "C:/Program Files/mingw64/sbin/rc.exe"
+      - "C:/Program Files/mingw64/sbin/rc"
+      - "C:/Program Files/mingw64/rc.com"
+      - "C:/Program Files/mingw64/rc.exe"
+      - "C:/Program Files/mingw64/rc"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/bin/rc"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/sbin/rc"
+      - "C:/Program Files (x86)/godot-cpp/rc.com"
+      - "C:/Program Files (x86)/godot-cpp/rc.exe"
+      - "C:/Program Files (x86)/godot-cpp/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/mingw64"
+        - "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake:216 (find_program)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    mode: "program"
+    variable: "__RC_COMPILER_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-rc"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Guardian/.local/bin/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Guardian/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Guardian/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Guardian/AppData/Local/GitHubDesktop/bin/"
+      - "C:/ProgramData/Guardian/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.3/bin/"
+      - "C:/Program Files/JetBrains/GoLand 2025.3.2/bin/"
+      - "C:/Users/Guardian/go/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/bin/"
+      - "C:/Users/Guardian/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/Godot/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/mingw64/bin/"
+      - "C:/Program Files/mingw64/sbin/"
+      - "C:/Program Files/mingw64/"
+      - "C:/Program Files (x86)/godot-cpp/bin/"
+      - "C:/Program Files (x86)/godot-cpp/sbin/"
+      - "C:/Program Files (x86)/godot-cpp/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-rc.com"
+    found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\Guardian\\.local\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\ProgramData\\Guardian\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\bin"
+        - "C:\\Program Files\\JetBrains\\GoLand 2025.3.2\\bin"
+        - "C:\\Users\\Guardian\\go\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Guardian\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\mingw64\\bin"
+        - "C:\\Program Files\\Godot"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/godot-cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/mingw64"
+        - "C:/Program Files (x86)/godot-cpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-pmm24f"
+      binary: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-pmm24f"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<IF:$<BOOL:OFF>,DebugDLL,$<$<NOT:$<BOOL:ON>>:DLL>>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-pmm24f'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_62ef7
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -MD -MT CMakeFiles/cmTC_62ef7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_62ef7.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_62ef7.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_62ef7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_62ef7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_62ef7.lib -Xlinker /pdb:cmTC_62ef7.pdb -Xlinker /version:0.0     && cd ."
+        FAILED: [code=1] cmTC_62ef7.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_62ef7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_62ef7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_62ef7.lib -Xlinker /pdb:cmTC_62ef7.pdb -Xlinker /version:0.0     && cd ."
+        clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_62ef7.exe "-libpath:lib\\\\amd64" "-libpath:atlmfc\\\\lib\\\\amd64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_62ef7.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_62ef7.lib /pdb:cmTC_62ef7.pdb /version:0.0
+        lld-link: error: could not open 'libcmt.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "godot-cpp/CMakeLists.txt:55 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Program Files/LLVM/bin/clang++.exe"
+    directories:
+      source: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-e7p79r"
+      binary: "C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-e7p79r"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<IF:$<BOOL:OFF>,DebugDLL,$<$<NOT:$<BOOL:ON>>:DLL>>"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-e7p79r'
+        
+        Run Build Command(s): C:/PROGRA~1/mingw64/bin/ninja.exe -v cmTC_bbbce
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -MD -MT CMakeFiles/cmTC_bbbce.dir/testCXXCompiler.cxx.obj -MF CMakeFiles\\cmTC_bbbce.dir\\testCXXCompiler.cxx.obj.d -o CMakeFiles/cmTC_bbbce.dir/testCXXCompiler.cxx.obj -c C:/Users/Guardian/Documents/Git/godot_rolling_average_cpp/build/CMakeFiles/CMakeScratch/TryCompile-e7p79r/testCXXCompiler.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bbbce.dir/testCXXCompiler.cxx.obj -o cmTC_bbbce.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bbbce.lib -Xlinker /pdb:cmTC_bbbce.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_bbbce.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -Xclang -flto-visibility-public-std -D_MT -Xclang --dependent-lib=libcmt -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bbbce.dir/testCXXCompiler.cxx.obj -o cmTC_bbbce.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bbbce.lib -Xlinker /pdb:cmTC_bbbce.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'kernel32.lib': no such file or directory
+        lld-link: error: could not open 'user32.lib': no such file or directory
+        lld-link: error: could not open 'gdi32.lib': no such file or directory
+        lld-link: error: could not open 'winspool.lib': no such file or directory
+        lld-link: error: could not open 'shell32.lib': no such file or directory
+        lld-link: error: could not open 'ole32.lib': no such file or directory
+        lld-link: error: could not open 'oleaut32.lib': no such file or directory
+        lld-link: error: could not open 'uuid.lib': no such file or directory
+        lld-link: error: could not open 'comdlg32.lib': no such file or directory
+        lld-link: error: could not open 'advapi32.lib': no such file or directory
+        lld-link: error: could not open 'oldnames.lib': no such file or directory
+        lld-link: error: could not open 'libcmt.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

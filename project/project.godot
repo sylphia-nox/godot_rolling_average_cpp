@@ -10,6 +10,16 @@ config_version=5
 
 [application]
 
-config/name="godot cpp template"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/name="rolling_average"
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
